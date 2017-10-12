@@ -1,0 +1,44 @@
+
+.ci-margin-column{
+  @include  span(3 last);
+  background: #2c3e50;
+}
+
+.ci-content-teaser{
+  @include span(4 of 9);
+  background: #95a5a6;
+}
+
+.ci-three-column{
+  @include  span(4);
+  background: orange;
+}
+
+.ci-five-column{
+  @include span(5);
+  background: #1abc9c;
+}
+
+.ci-six-column{
+  @include span(6);
+  background: #a522bc;
+}
+
+.ci-seven-column{
+  @include span(7 last);
+  background: #ccc083;
+}
+
+.ci-nine-column{
+  @include span(9);
+  background: #1ebbcc;
+}
+
+.ci-nine-column{
+  @include span(9);
+  background: #cc0b00;
+}
+
+.ci-twelve-column{
+  @include span(12);
+}

@@ -1,0 +1,22 @@
+
+//clearfix
+@mixin cf{
+  &:after{
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+
+
+//font-path
+@mixin font-family($font-family, $file-path  ) {
+  @font-face {
+    font-family: $font-family;
+    src: url('#{$file-path}.ttf');
+  }
+}
+
+@include font-family(Roboto-thin, fonts/Roboto-Thin);
+@include font-family(Roboto-regular, fonts/Roboto-Regular);
+@include font-family(Roboto-bold, fonts/Roboto-Bold);

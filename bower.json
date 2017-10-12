@@ -1,0 +1,19 @@
+{
+  "name": "poc-susy",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Cortes",
+    "King Larce",
+    "arvato Systems Malaysia <kinglarce.cortes@bertelsmann.de>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

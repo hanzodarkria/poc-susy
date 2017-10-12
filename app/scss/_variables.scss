@@ -1,0 +1,57 @@
+$screen-xs-min: 320px;
+$screen-sm-min: 768px;
+$screen-md-min: 1024px;
+$screen-lg-min: 1280px;
+$screen-lg2-min: 1300px;
+
+$grid-gutter-width: 40px;
+
+$text-color: #222;
+$font-family-thin: Roboto-Thin;
+$font-family-regular: Roboto-Regular;
+$font-family-bold: Roboto-Bold;
+
+$font-size-base: 16px;
+$font-size-small: ceil(($font-size-base * 0.875));// ~14px
+$font-size-medium: ceil(($font-size-base * 1.25));// ~20px
+$font-size-large: ceil(($font-size-base * 1.375));// ~22px
+
+$font-size-headline1: floor(($font-size-base * 2.75));// ~44px
+$font-size-headline2: floor(($font-size-base * 2.75));// ~28px
+$font-size-headline3: $font-size-headline2;
+$font-size-headline4: floor(($font-size-base * 2.75));// ~24px
+$font-size-headline5: floor(($font-size-base * 2.75));// ~18px
+$font-size-headline6: floor(($font-size-base * 2.75));// ~20px
+
+$ci-spacer-xs: 5px;
+$ci-spacer-sm: 10px;
+$ci-spacer-md: 20px;
+$ci-spacer-lg: 30px;
+$ci-spacer-xl: 60px;
+$ci-spacer-xxl: 90px;
+
+$ci-spacer-link-element: 20px;
+
+$ci-black:#000;
+$ci-white:#fff;
+
+//corporate blue
+$ci-blue-10:#006eb4;
+$ci-blue-20:#388cc1;
+$ci-blue-30:#3399ff;
+
+//UI grays
+$ci-gray-10:#222;
+$ci-gray-15:#444;
+$ci-gray-20:#68676c;
+$ci-gray-25:#777;
+$ci-gray-30:#868589;
+$ci-gray-35:#999;
+$ci-gray-40:#bbbabd;
+$ci-gray-45:#d2d3d3;
+$ci-gray-50:#dadada;
+$ci-gray-55:#ededed;
+
+$ci-header-height: 116px;
+
+$link-hover-decoration:none;

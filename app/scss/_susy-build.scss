@@ -1,0 +1,29 @@
+@import "_susy";
+
+
+$susy: (
+        columns: 12,
+        debug: (image: show),
+        global-box-sizing: border-box,
+        container: 1160px,
+        border:0px solid transparent,
+        gutters: 0.7272727272727273,
+  // gutter-position: split,
+);
+
+
+
+@include border-box-sizing;
+
+.wrap{
+  @include container();
+}
+
+
+
+
+
+
+
+
+
